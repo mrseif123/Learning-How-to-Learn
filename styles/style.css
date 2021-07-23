@@ -15,6 +15,11 @@
   max-height: 756px;
   /* parameters for the header section */
 }
+.logo_place_header {
+  position: absolute;
+  width: 154px;
+  height: 31px;
+}
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {

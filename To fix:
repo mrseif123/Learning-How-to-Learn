@@ -9,5 +9,10 @@ To fix:
     in description:
         1- make sure distance between p is 30px.
         2- p must start with the same line as brief.
-        3- BEM.
+
+    in digits:
+        noth
     
+    in feynman:
+        1- The main title is a little higher than expected.
+        2- the subtitle is a little higher than expected.

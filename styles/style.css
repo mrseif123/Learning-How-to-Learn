@@ -270,3 +270,63 @@ div {
 .table__cell-first {
   margin-bottom: 30px;
 }
+
+.feynman {
+  border-style: solid;
+  border-width: 1px;
+  border-color: pink;  
+  height: 790px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+}
+
+ div {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;  
+ } 
+ img {
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;  
+ }
+ 
+.fenyman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 775px;
+  z-index: 99;
+  text-align: center; 
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-weight: normal;
+  font-size: 36px;
+  z-index: 99;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.fenyman__link {
+  line-height: 51px;
+  font-weight: normal;
+  font-size: 36px;
+  color: #2F80ED;
+  position: absolute;
+  right: 48px;
+  top: 50%;
+}
+
+.fenyman__image {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(/images/feynman.png); 
+}

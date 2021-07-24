@@ -9,11 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* div {
-  border-style: solid;
-  border-width: 1px;
-} */
-
 .header {
   height: 100vh;
   min-height: 600px;
@@ -21,15 +16,21 @@
   /* parameters for the header section */
   background-color: #f2f2f2;
 }
-
-.header__block {
+/* 
+div {
   border-style: solid;
   border-width: 1px;
-  border-color: aqua; 
+} */
+
+.header__column {
+  /* border-style: solid;
+  border-width: 1px;
+  border-color: aqua;    */
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: auto;
+  height:100%;
   width: 50%;
 }
 
@@ -42,13 +43,27 @@
 .logo {
   width:154px;
   height: 31px;
+  z-index: 99;
 }
+
+.header__flex-column-item_top {
+  margin-top: 30px;
+  margin-left: 64px ;
+}
+
+.header__flex-column-item_bottom {
+  margin-bottom: 30px;
+  margin-left: 64px ;
+}
+
 
 .header__title {
   width: 730px;
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
+  z-index: 99;
+  margin-left: 64px ;
 }
 
 .header__subtitle {
@@ -56,16 +71,34 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  z-index: 99;
 }
 
 .header__link {
+  text-decoration: none;
   color: #2F80ED;
+}
+
+.header__main-image {
+  width: 756px;
+  height: 608px;
+  z-index: 99;
+  right:0 ;
+}
+
+.flex-row {
+  display: flex;
+  position: relative;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2F80ED;
+  position: absolute;
+  right: 0;
+
 }
 
 /* including elements with key-value modifiers */
@@ -74,4 +107,38 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.description {
+  
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;   
+
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 100px;
+  min-width: 784px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.description__column-right{
+  border-style: solid;
+  border-width: 1px;
+  border-color: aqua;  
+  flex-direction: column;
+  width: 80%;
+
+}
+
+.description__column-left{
+  border-style: solid;
+  border-width: 1px;
+  border-color: aqua; 
+  flex-direction: column;
+  width: 20%;
+
 }

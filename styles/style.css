@@ -16,60 +16,43 @@
   /* parameters for the header section */
 }
 
-.logo {
-  
-  height: 31px;
-  width: 154px;
+.header__block {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__columns {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .logo_place_header {
-  position: absolute;
-  top: 30px;
-  left: 64px;
   z-index: 99;
+  width: 154px;
+  height: 31px;
 }
 
-.header__title{
-  position: relative;
+.header__title {
   width: 730px;
-  display: flex;
-  top: 40%;
   line-height: 96px;
   font-size: 102px;
-  font-weight: bold; 
-  margin-left: 64px;
-  z-index: 99;
+  font-weight: bold;
 }
 
 .header__subtitle {
   position: absolute;
-  z-index: 0;
+  width: 388px;
   line-height: 25px;
   font-size: 18px;
-  width: 388px;
   font-weight: normal;
-  bottom: 30px;
-  left: 64px;
-}
-
-.header__main_picture {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 756px;
-  height: 606px;
-  z-index: 99;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
-  position: absolute;
   height: 568px;
   width: 568px;
-  background: #2F80ED;
-  right: 0;
-  top: 64px;
-  z-index: 0;
 }
 
 /* including elements with key-value modifiers */
@@ -78,41 +61,4 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
-}
-
-.description {
-  
-}
-
-.two-columns {
-  position: relative;
-  min-width: 784px;
-  display: flex;
-}
-
-.flex-column_first {
-  width: 175px;
-}
-
-.flex-column {
-  flex-direction: column;
-  justify-content: space-between;
-  width: 80%;
-}
-
-.description__brief {
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2F80ED;
-}
-
-.description_text {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.span-accent {
-  font-weight: bold; 
 }

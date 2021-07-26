@@ -48,12 +48,12 @@ div {
 
 .header__flex-column-item_top {
   margin-top: 30px;
-  margin-left: 64px ;
+  margin-left: 64px;
 }
 
 .header__flex-column-item_bottom {
   margin-bottom: 30px;
-  margin-left: 64px ;
+  margin-left: 64px;
 }
 
 
@@ -63,7 +63,7 @@ div {
   font-size: 102px;
   font-weight: bold;
   z-index: 99;
-  margin-left: 64px ;
+  margin-left: 64px;
 }
 
 .header__subtitle {
@@ -83,7 +83,7 @@ div {
   width: 756px;
   height: 608px;
   z-index: 99;
-  right:0 ;
+  right: 0;
 }
 
 .flex-row {
@@ -265,28 +265,12 @@ div {
 }
 
 .feynman {
-
-  /* border-style: solid;
-  border-width: 1px;
-  border-color: pink;   */
-
   height: 790px;
   display: flex;
   flex-direction: column;
   position: relative;
   align-items: center;
 }
-
- /* div {
-  border-style: solid;
-  border-width: 1px;
-  border-color: red;  
- } 
- img {
-  border-style: solid;
-  border-width: 1px;
-  border-color: red;  
- } */
  
 .fenyman__title {
   line-height: 1.15;
@@ -295,7 +279,6 @@ div {
   width: 775px;
   z-index: 99;
   text-align: center; 
-  
 }
 
 .feynman__subtitle {

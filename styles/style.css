@@ -295,8 +295,6 @@ div {
   width: 775px;
   z-index: 99;
   text-align: center; 
-  padding-top: 100px;
-  padding-left: 120px;
   
 }
 
@@ -306,8 +304,6 @@ div {
   font-size: 36px;
   z-index: 99;
   text-align: center;
-  margin-top: 70px;
-  padding-left: 120px;
 }
 
 .fenyman__link {

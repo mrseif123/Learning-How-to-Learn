@@ -274,9 +274,7 @@ div {
     text-align: center;
     margin-top: 90px;
     margin-bottom: 0;
-    width: 60%;
     z-index: 1;
-    width: 100%;
     align-items: center;
 }
 
@@ -286,6 +284,7 @@ div {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0;
+    align-self: center;
 }
 
 .table__heading-theme_dark {

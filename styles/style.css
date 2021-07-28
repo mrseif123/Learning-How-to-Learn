@@ -41,6 +41,7 @@
   margin-left: 64px;
   align-self: center;
   background-color: transparent;
+  z-index: 1;
 }
 
 .logo_place_header {
@@ -62,6 +63,7 @@
   left: 64px;
   bottom: 30px;
   background-color: transparent;
+  z-index: 2;
 }
 
 .header__link {
@@ -76,9 +78,6 @@
   bottom: 0;
   position: absolute;
   background-color: transparent;
-}
-
-.header__image_holder {
   z-index: 1;
 }
 
@@ -97,6 +96,7 @@
 .description {
   margin: 0 auto;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .description__two-columns {
@@ -144,14 +144,21 @@
 }
 
 .section-title {
+
+  all: initial;
+  position: relative;
   line-height: 69px;
   font-size: 60px;
+  bottom: 20px;
   font-weight: bold;
   align-items: center;
   text-align: center;
 }
 
 .section-subtitle {
+
+  all: initial;
+  position: relative;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -213,7 +220,7 @@
   align-items: center;
   text-align: center;
   background-color: #f2f2f2;
-  z-index: -1;
+  z-index: 0;
 }
 
 .fenyman__title {
@@ -329,6 +336,9 @@
   background-color: #1f1f1f;
   color: #f2f2f2;
   padding-bottom: 40px;
+  min-height: 350px;
+  display: flex;
+  box-sizing: border-box;
 }
 
 .footer__columns {
@@ -337,14 +347,12 @@
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  min-height: 350px;
 }
 
 .footer__columns_left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 50%;
   flex-basis: 711px;
 }
 

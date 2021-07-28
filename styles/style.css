@@ -99,14 +99,14 @@
   padding-bottom: 100px;
 }
 
-.description__two-columns {
+.two-columns {
   display: flex;
   justify-content: space-between;
   padding-left: 100px;
   padding-right: 100px;
 }
 
-.description__brief {
+.two-columns__brief {
   all: initial;
   color: #2f80ed;
   line-height: 1.2;
@@ -115,20 +115,27 @@
   width: 175px;
 }
 
-.description__main-text {
+.two-columns__main-text {
   width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.description__paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.description__span-accent {
+.two-columns__paragraph:last-child {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;

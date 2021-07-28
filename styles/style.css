@@ -104,14 +104,10 @@ div {
 }
 
 .description {
-    /* border-style: solid;
-  border-width: 1px;
-  border-color: red;    */
     margin-top: 100px;
     margin-right: 100px;
     margin-left: 100px;
     min-width: 784px;
-    display: flex;
     justify-content: center;
 }
 
@@ -128,11 +124,7 @@ div {
 .description__column-right {
     flex-direction: column;
     width: 80%;
-    height: fit-content;
     justify-content: space-between;
-    /* border-style: dotted;
-  border-width: 1px;
-  border-color: blue;   */
 }
 
 .description__column-left {
@@ -174,6 +166,7 @@ div {
     font-size: 60px;
     font-weight: bold;
     align-self: center;
+    width: 60%;
 }
 
 .section-subtitle {
@@ -181,8 +174,8 @@ div {
     font-size: 24px;
     font-weight: normal;
     align-self: center;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    text-align: center;
+    width: 60%;
 }
 
 .section-title__box {
@@ -362,9 +355,7 @@ div {
 .footer {
     background-color: #1f1f1f;
     color: #f2f2f2;
-    min-height: 350px;
-    top: 60px;
-    bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .footer__columns {
@@ -373,6 +364,7 @@ div {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
+    min-height: 350px;
 }
 
 .footer__columns_left {
@@ -394,14 +386,28 @@ div {
 .footer__column_content_about {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     margin-right: 120px;
 }
 
 .footer__column-heading {
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
+}
+
+.footer__list-item {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    list-style: none;
+    text-align: left;
+}
+
+.footer__list {
+    margin: 0;
+    padding: 0;
 }
 
 .logo__place_footer {
@@ -410,20 +416,12 @@ div {
 }
 
 .footer__column_content_copyright {
-    margin-bottom: 18px;
-    margin-top: 18px;
+    padding-bottom: 18px;
+    padding-top: 18px;
     line-height: 25px;
     font-size: 18px;
     font-weight: normal;
     display: flex;
-}
-
-.footer__list {
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-    list-style: none;
-    padding: 0;
 }
 
 .footer__column-link {
@@ -435,4 +433,5 @@ div {
 .footer__social-icons {
     width: 16px;
     height: 16px;
+    padding-right: 10px;
 }

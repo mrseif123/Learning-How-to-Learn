@@ -102,12 +102,13 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  padding-left: 100px;
-  padding-right: 100px;
+  width: 80%; 
+  min-width: 784px;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
-  all: initial;
+  margin: 0;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -116,6 +117,7 @@
 }
 
 .two-columns__main-text {
+  
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -123,15 +125,24 @@
 }
 
 .two-columns__paragraph {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
+.two-columns__paragraph:first-child {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.two-columns__paragraph:nth-child(2) {
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+}
+
 .two-columns__paragraph:last-child {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 
@@ -143,15 +154,13 @@
 
 .digits {
   margin-bottom: 100px;
-  margin-right: 100px;
-  margin-left: 100px;
   height: auto;
   display: flex;
   flex-direction: column;
 }
 
 .section-title {
-  all: initial;
+  margin: 0;
   position: relative;
   line-height: 69px;
   font-size: 60px;
@@ -163,7 +172,7 @@
 }
 
 .section-subtitle {
-  all: initial;
+  margin: 0;
   position: relative;
   line-height: 34px;
   font-size: 24px;
@@ -185,7 +194,7 @@
 }
 
 .table__heading {
-  all: initial;
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
@@ -193,6 +202,8 @@
 }
 
 .table__text {
+  margin: 0;
+  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -204,7 +215,7 @@
 }
 
 .feynman {
-  height: 790px;
+  min-height: 790px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -214,7 +225,9 @@
   z-index: 0;
 }
 
-.fenyman__title {
+.feynman__title {
+  margin: 0;
+  padding: 0;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
@@ -226,11 +239,15 @@
 }
 
 .feynman__subtitle {
+  margin: 0;
+  padding: 0;
+  margin-top: 70px;
   line-height: 51px;
   font-weight: normal;
   font-size: 36px;
   z-index: 99;
   text-align: center;
+
   background-color: transparent;
 }
 
@@ -240,6 +257,7 @@
   font-size: 36px;
   color: #2f80ed;
   position: absolute;
+  text-decoration: none;
   right: 48px;
   top: 50%;
 }
@@ -262,7 +280,7 @@
   background-color: #1f1f1f;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   line-height: 69px;
   font-size: 60px;
   width: 60%;
@@ -276,7 +294,7 @@
   align-items: center;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -301,7 +319,7 @@
   font-weight: normal;
 }
 
-.table_dark {
+.table_theme_dark {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -332,6 +350,7 @@
 }
 
 .footer {
+  padding-top: 60px;
   background-color: #1f1f1f;
   color: #f2f2f2;
   padding-bottom: 40px;
@@ -345,33 +364,36 @@
   width: 90%;
   margin-right: auto;
   margin-left: auto;
+  justify-content: space-between;
 }
 
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 5;
+  flex-basis: 711px;
 }
 
 .footer__column_content_about {
   flex-direction: column;
   justify-content: flex-start;
-  flex: 2;
+  text-align: right;
+  width: fit-content;
 }
 
 .footer__column-heading {
-  all: initial;
+  margin: 0;
+  margin-bottom: 20px;
   color: #f2f2f2;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  text-align: right;
 }
 
 .footer__column-link {
   line-height: 30px;
   font-size: 18px;
-  padding-top: 20px;
   font-weight: normal;
   list-style: none;
   text-align: left;
@@ -380,9 +402,14 @@
 }
 
 .footer__column_content_social {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   flex-direction: column;
   justify-content: flex-start;
-  flex: 1;
+  flex-wrap: wrap;
+  text-align: right;
+  width: fit-content;
 }
 
 .logo_place_footer {
@@ -397,9 +424,30 @@
 }
 
 .footer__author {
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
   padding-bottom: 18px;
   padding-top: 18px;
+}
+
+
+.footer__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer__list-item {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: left;
+}
+
+.footer__list-item:first-child {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }

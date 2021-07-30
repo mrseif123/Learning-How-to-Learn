@@ -1,0 +1,6 @@
+.footer__column_content_about {
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: right;
+  width: fit-content;
+}

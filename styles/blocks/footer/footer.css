@@ -1,0 +1,14 @@
+.footer {
+  padding-top: 60px;
+  background-color: #1f1f1f;
+  color: #f2f2f2;
+  padding-bottom: 40px;
+  min-height: 350px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}

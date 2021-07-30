@@ -6,9 +6,8 @@
   background-color: #f2f2f2;
   display: flex;
   position: relative;
+  overflow: hidden;
 }
-
-
 
 .logo_place_header {
   width: 154px;

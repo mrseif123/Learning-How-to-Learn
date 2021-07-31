@@ -6,7 +6,7 @@ is my first attempt in the Web-Development world, freshly started learning HTML,
 This is a simple one-page website built with HTML & CSS only.
 
 Mainly focuses on the following:
-1. BEM naming conviction for files, elements, blocks and modifiers.
+1. BEM naming convention for files, elements, blocks and modifiers.
 2. Using Flex-Box.
 3. Implementing simple animations.
 4. Using Embedded content.

@@ -10,3 +10,6 @@ Mainly focuses on the following:
 2. Using Flex-Box.
 3. Implementing simple animations.
 4. Using Embedded content.
+
+
+[A direct link (GitHub Pages):](https://mrseif123.github.io/web_project_1/)

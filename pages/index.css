@@ -27,6 +27,8 @@
 @import url(../blocks/main/video/__iframe/video__iframe.css);
 @import url(../blocks/main/video/__iframes/video__iframes.css);
 
+@import url(../blocks/main/oakley/oakley.css);
+
 @import url(../blocks/main/digits/digits.css);
 @import url(../blocks/main/digits/section-subtitle/section-subtitle.css);
 @import url(../blocks/main/digits/section-title/section-title.css);
@@ -48,6 +50,8 @@
 @import url(../blocks/main/kaufman/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/main/kaufman/table/__heading-theme/_dark/table__heading-theme_dark.css);
 @import url(../blocks/main/kaufman/table/__text-theme/_dark/table__text-theme_dark.css);
+@import url(../blocks/main/kaufman/__traingle/kaufman__triangle.css);
+
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);

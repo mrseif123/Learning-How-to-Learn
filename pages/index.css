@@ -1,3 +1,5 @@
+@import url(../styles/style.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__main-illustrarion/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);

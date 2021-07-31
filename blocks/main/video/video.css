@@ -5,6 +5,7 @@
   flex-direction: column;
   position: relative;
   background-color: transparent;
+  padding-top: 100px;
   bottom: -60px;
   z-index: 10;
 }

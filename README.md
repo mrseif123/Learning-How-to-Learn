@@ -12,4 +12,4 @@ Mainly focuses on the following:
 4. Using Embedded content.
 
 
-[A direct link (GitHub Pages):](https://mrseif123.github.io/web_project_1/)
+[A direct link (GitHub Pages)](https://mrseif123.github.io/web_project_1/)

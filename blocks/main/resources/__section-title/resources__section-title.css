@@ -1,3 +1,13 @@
 .resources__section-title {
-
+  margin: 0;
+  padding: 0;
+  position: relative;
+  line-height: 69px;
+  font-size: 60px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  align-self: center;
+  text-align: center;
+  width: 60%;
 }

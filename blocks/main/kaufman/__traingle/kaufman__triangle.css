@@ -5,6 +5,7 @@
   position: absolute;
   right: -124px;
   z-index: 0;
-  background-image: url("/images/kaufman-triangle.svg");
+  background-image: url(kaufman-triangle.svg);
   animation: rotation 20s linear  infinite;
+
 }

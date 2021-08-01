@@ -1,5 +1,6 @@
 @import url(../styles/normalize.css);
 @import url(../styles/style.css);
+@import url(../styles/rotation.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__main-illustrarion/header__main-illustration.css);
@@ -76,6 +77,7 @@
 
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/logo_place_footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);

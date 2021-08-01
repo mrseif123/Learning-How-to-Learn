@@ -1,4 +1,6 @@
 .section-subtitle_theme_dark {
+  padding: 0;
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;

@@ -3,6 +3,7 @@
 @import url(../styles/rotation.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/logo_place_header.css);
 @import url(../blocks/header/__main-illustrarion/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
@@ -54,7 +55,7 @@
 @import url(../blocks/main/khan/__title/khan__title.css);
 
 @import url(../blocks/main/feynman/feynman.css);
-@import url(../blocks/main/feynman/__title/feynma__title.css);
+@import url(../blocks/main/feynman/__title/feynman__title.css);
 @import url(../blocks/main/feynman/__subtitle/feynman__subtitle.css);
 @import url(../blocks/main/feynman/__image/feynman__image.css);
 @import url(../blocks/main/feynman/__link/feynman__link.css);
@@ -66,15 +67,13 @@
 @import url(../blocks/main/kaufman/table/__cell/_theme/table__cell_theme_dark.css);
 @import url(../blocks/main/kaufman/table/__heading-theme/_dark/table__heading-theme_dark.css);
 @import url(../blocks/main/kaufman/table/__text-theme/_dark/table__text-theme_dark.css);
-@import url(../blocks/main/kaufman/__traingle/kaufman__triangle.css);
-
+@import url(../blocks/main/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../blocks/main/resources/resources.css);
 @import url(../blocks/main/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/main/resources/__logo/resources__logo.css);
 @import url(../blocks/main/resources/__section-title/resources__section-title.css);
 @import url(../blocks/main/resources/__section-subtitle/resources__section-subtitle.css);
-
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/logo_place_footer.css);

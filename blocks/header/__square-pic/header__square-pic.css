@@ -1,3 +1,4 @@
+@import url(/styles/animations.css);
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -9,14 +10,3 @@
   transform: rotate(-15deg);
   animation: rotation 20s linear  infinite;
 }
-
-@keyframes rotation {
-  from {
-    transform: rotate(-15deg);
-  }
-
-  to {
-    transform: rotate(345deg);
-  }
-}
-

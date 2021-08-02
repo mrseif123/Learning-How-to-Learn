@@ -7,5 +7,10 @@
   color: inherit;
   /* blue colors for links too */
   text-decoration: inherit;
-  /* no underline */
+  opacity: 1;
+  transition: opacity 0.7s ease-in-out;
+}
+
+.footer__column-link:hover {
+    opacity: 0.3;
 }

@@ -4,9 +4,3 @@
   list-style-type: none;
   text-align: left;
 }
-
-.footer__list-item:first-child {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}

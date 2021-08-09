@@ -1,7 +1,6 @@
-# web_project_1
+# Web Project 1&2
 
-Web Project 1
-is my first attempt in the Web-Development world, freshly started learning HTML, CSS & JS to further expand my coding skills tool-box.
+My first attempt in the Web-Development world, freshly started learning HTML, CSS & JS to further expand my coding skills tool-box.
 
 This is a simple one-page website built with HTML & CSS only.
 
